@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Custom Top Navigation",
+    "id": "c60df5ec-a9ae-46c9-8673-d688eb2520bf",
+    "version": "1.0.3.9",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Armin Razic",
+      "websiteUrl": "https://servmanag.azurewebsites.net/soltechna/Contact.html",
+      "privacyUrl": "https://servmanag.azurewebsites.net/soltechna/termsofuse.html",
+      "termsOfUseUrl": "https://servmanag.azurewebsites.net/soltechna/termsofuse.html",
+      "mpnId": ""
+    },
+    "features": [
+      {
+        "title": "Custom Top Navigation",
+        "description": "Deploys Custom Top Navigation",
+        "id": "d070b196-2c01-4321-9125-0b92250da1ed",
+        "version": "1.0.3.4",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  
+  "paths": {
+    "zippedPackage": "solution/sp-custom-top-navigation.sppkg"
+  }
+}

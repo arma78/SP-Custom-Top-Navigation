@@ -1,0 +1,211 @@
+@import '~office-ui-fabric-react/dist/sass/_References.scss';
+
+.app {
+
+ .removeHeader {
+    cursor: pointer;
+    background-color: black;
+    color: orange;
+    font-weight: 400;
+  }
+
+  .overlay {
+    position: fixed;
+    display: block;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgb(46, 44, 44);
+  }
+
+  .main-dialog {
+    background-color: #0078d4;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+
+  .text {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    z-index: 4;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .top {
+    // height:40px;
+    //  text-align:left;
+    // line-height:2.5;
+    font-weight: bold;
+    // display: flex;
+    //  align-items: left;
+    // justify-content: left;
+  }
+
+
+
+  .dropdown-content {
+    position: absolute;
+  }
+
+
+
+
+
+  .bottom {
+    height: 140px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-Top: 4px;
+  }
+
+
+
+  .a, a:visited, a:hover {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .commandBar {
+    width: 100%;
+    font-weight: bold;
+    color: white !important;
+  }
+
+
+  i {
+    color: #ba9c16 !important;
+  }
+
+  .menuIcon {
+    color: #ba9c16 !important;
+  }
+
+  .cards {
+    float: left;
+    color: black;
+    width: 102px;
+    height: 84px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 8px;
+    background-size: auto;
+    cursor: pointer;
+    text-align: left;
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: left; /* Horizontal center alignment */
+  }
+
+  @media only screen and (max-width: 416px) {
+    .dropdown-content {
+      position: relative !important;
+    }
+
+    .titlebottom {
+      font-size: x-large !important;
+      height: 55px !important;
+      padding-top: 17px !important;
+      padding-bottom: 10px !important;
+      margin-right: 3px !important;
+      margin-left: 3px !important;
+    }
+
+    .cards {
+      float: left !important;
+      color: #ffffffff !important;
+      width: 77px !important;
+      height: 30px !important;
+      margin-left: 2px !important;
+      margin-right: 2px !important;
+      padding-left: 2px !important;
+      padding-right: 2px !important;
+      margin-top: 1px !important;
+      margin-bottom: 1px !important;
+      padding-top: 1px !important;
+      padding-bottom: 1px !important;
+      background: black !important;
+    }
+
+    .bottom {
+      height: 105px !important;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 880px) {
+
+    .titlebottom {
+      height: 99px;
+      width: auto;
+      padding-top: 0px;
+      margin-right: 1px;
+      vertical-align: middle;
+      font-size: x-large;
+      font-weight: 700;
+      color: #000;
+      text-align: center;
+    }
+
+    .bottom {
+      height: 190px;
+    }
+
+    .cards {
+      float: left;
+      color: black;
+      width: 77px;
+      height: 60px;
+      margin-left: 3px;
+      margin-right: 3px;
+      padding-left: 3px;
+      margin-top: 2px;
+      background-size: auto;
+      cursor: pointer;
+      text-align: left;
+      font-size: small;
+      display: flex;
+      align-items: center; /* Vertical center alignment */
+      justify-content: left; /* Horizontal center alignment */
+    }
+  }
+
+  .titlebottom {
+    height: 100px;
+    width: auto;
+    padding-top: 40px;
+    margin-right: 14px;
+    vertical-align: middle;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    background-size: auto;
+  }
+
+  a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .ulCustom {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+  }
+}

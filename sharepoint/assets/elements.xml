@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Custom Top Navigation"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="5b87aecb-6bc0-4077-952f-1318f7faa7f1"
+        ClientSideComponentProperties="{&quot;UrlRootSite&quot;:&quot;&quot;,&quot;TopBackground&quot;:&quot;&quot;,&quot;FontColor&quot;:&quot;&quot;,&quot;MenuITembBgColor&quot;:&quot;&quot;,&quot;EmpowerAuthorization&quot;:&quot;&quot;}">
+    </CustomAction>
+</Elements>
